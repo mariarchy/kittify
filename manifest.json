@@ -1,0 +1,25 @@
+{
+    "name": "Marissa's beautiful extension 😍",
+    "version": "1.0",
+    "description": "Time to make an awesome chrome extension",
+    "manifest_version": 2,
+    "icons": {
+      "16": "images/get_started16.png",
+      "32": "images/get_started32.png",
+      "48": "images/get_started48.png",
+      "128": "images/get_started128.png"
+    },
+    "page_action": {
+      "default_icon": {
+        "16": "images/get_started16.png",
+        "32": "images/get_started32.png",
+        "48": "images/get_started48.png",
+        "128": "images/get_started128.png"
+      }
+    },
+    "permissions": ["activeTab", "declarativeContent"],
+    "background": {
+      "scripts": ["script.js"],
+      "persistent": false
+    }
+}
